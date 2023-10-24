@@ -120,14 +120,18 @@ section{
 @media screen and (max-width:500px) {
     #Casque img, #Gamer img, #Philosophy img{
       width: 100%;
-
-      .title{
+    }
+    .title{
         letter-spacing: 0.5rem;
     }
-  }
 }
+
 
 #Casque > .row, #Gamer > .row, #Philosophy > .row{
   margin-left: 0px;
   margin-right: 0px;
+}
+
+#Casque p{
+  color: red;
 }
