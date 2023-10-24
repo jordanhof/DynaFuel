@@ -2,7 +2,7 @@
 //Compte a rebour
 
 const output = document.querySelector(".timer");
-const targetDate = new Date("Nov 10, 2023 12:00:00").getTime();
+const targetDate = new Date("Dec 10, 2023 12:00:00").getTime();
 const interval = setInterval(() => {
     const currentDate = new Date().getTime(); // Correction ici
     const distance = targetDate - currentDate;
