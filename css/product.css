@@ -148,3 +148,10 @@
       width: 44%;
     }
   }
+
+  @media screen and (max-width:500px) {
+    .left-column img {
+      top: 190px;
+      width: 165px;
+    }
+}
