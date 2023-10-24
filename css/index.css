@@ -116,3 +116,9 @@ section{
     font-weight: 1em;
 }
 }
+
+@media screen and (max-width:500px) {
+    #Casque img, #Gamer img, #Philosophy img{
+      width: 100%;
+  }
+}
