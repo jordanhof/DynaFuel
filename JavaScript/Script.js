@@ -44,7 +44,7 @@
 //Compte a rebour
 
 const output = document.querySelector(".timer");
-const targetDate = new Date("Nov 10, 2023 12:00:00").getTime();
+const targetDate = new Date("Jan 10, 2024 12:00:00").getTime();
 const interval = setInterval(() => {
     const currentDate = new Date().getTime(); // Correction ici
     const distance = targetDate - currentDate;
@@ -59,3 +59,13 @@ const interval = setInterval(() => {
         output.style.textTransform = "uppercase";
     }
 }, 1000);
+
+function checkDatePlaceholder(input) {
+  if (input.value !== "") {
+    input.removeAttribute("placeholder");
+    input.classList.add("no-placeholder");
+  } else {
+    input.setAttribute("placeholder", "Date de naissance");
+    input.classList.remove("no-placeholder");
+  }
+}
