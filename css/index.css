@@ -140,3 +140,11 @@ section{
   margin-left: 0px;
   margin-right: 0px;
 }
+
+input[type="date"]::before{
+  content: attr(placeholder)" : ";
+  white-space: pre;
+}
+input[type="date"]:focus::before {
+  content:""!important;
+}
