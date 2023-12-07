@@ -149,3 +149,13 @@ input[type="date"]::before {
 input[type="date"].no-placeholder::before {
   content: "" !important;
 }
+
+.entry__field{
+  color: black;
+}
+
+.center-form {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
