@@ -169,13 +169,14 @@
   <div class="left-column">
     <img data-image="green" src="images/Apple-Juice.png" alt="">
     <img data-image="orange" src="images/Orange-Juice.png" alt="">
-    <img data-image="red" class="active-product" src="images/Strawberry-Juice.png" alt="">
+    <img data-image="red" src="images/Strawberry-Juice.png" alt="">
+    <img data-image="purple" class="active-product" src="images/FrozenFuel.png" alt="">
   </div>
   <!-- Right Column -->
   <div class="right-column">
     <!-- Product Description -->
     <div class="product-description">
-      <div class="red active-description">
+      <div class="red">
         <span>Elixir Red</span>
         <h1>Saveur Framboise</h1>
         <p>Plongez dans un monde d'énergie exquise avec l'Élixir Dynafuel Saveur Framboise. </p> 
@@ -211,6 +212,18 @@
           <li><p>Composé de Jus de Pomme Naturel, d'Eau de Coco, de Miel brut, d'extrait de thé vert, de Ginseng, de Gingembre, de Guarana et de Maca, avec une touche d'élecrolytes .</p></li>
         </ul>
       </div>
+      <div class="purple active-description">
+        <span>Elixir Purple</span>
+        <h1>Saveur Myrtille</h1>
+        <p>Plongez au cœur d'une explosion de saveurs exquises avec l'Élixir Dynafuel Saveur Myrtille.</p>
+        <p>Cette boisson énergisante premium incarne l'essence même de la délectation, offrant à vos papilles une expérience gustative exceptionnelle.</p>
+        <span>DynaFuel<span>&#174;</span> c'est ...</span>
+        <ul>
+          <li><p>Un produit entièrement conçu en Belgique.</p></li>
+          <li><p>Une boisson conçue pour optimiser vos performances sans compromettre votre bien-être.</p></li>
+          <li><p>Composé de Jus de Myrtille Naturel, d'Eau de Coco, de Miel brut, d'extrait de thé vert, de Ginseng, de Gingembre, de Guarana et de Maca, avec une touche d'électrolytes.</p></li>
+        </ul>
+      </div>
     </div>
     
     <!-- Product Color -->
@@ -218,6 +231,10 @@
       <span>Goûts</span>
 
       <div class="color-choose">
+        <div>
+          <input data-image="purple" type="radio" id="purple" name="color" value="purple">
+          <label for="purple"><span></span></label>
+        </div>
         <div>
           <input data-image="red" type="radio" id="red" name="color" value="red" checked>
           <label for="red"><span></span></label>
